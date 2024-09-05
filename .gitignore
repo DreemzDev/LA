@@ -1,0 +1,5 @@
+.vscode
+Dockerfile
+docker-compose.yml
+index.html.save
+nginx.conf
