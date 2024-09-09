@@ -23,189 +23,153 @@
                     <span class="self-center text-lg md:text-2xl font-bold whitespace-nowrap uppercase dark:text-white">Lex-Auto</span>
                 </a>
                 <p class="text-center hidden md:block font-semibold uppercase text-gray-900  dark:text-white">Lex-Auto - все для покупки/продажи в Санкт-Петербурге</p>
-                <div class="flex gap-4">
-                    <button id="dropdownTelegramButton" data-dropdown-toggle="dropdownTelegram" class="relative inline-flex items-center text-sm font-medium text-center text-gray-500 hover:text-gray-900 focus:outline-none dark:hover:text-white dark:text-gray-400" type="button">
-                        <img class="size-12" src="img/icons8-telegram-app-100.png" alt="telegram">
-                    </button>
-                    <!-- Dropdown menu -->
-                    <div id="dropdownTelegram" class="z-20 hidden w-full max-w-sm bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-800 dark:divide-gray-700" aria-labelledby="dropdownTelegramButton">
-                    <div class="block px-4 py-2 font-semibold uppercase text-center text-gray-700 rounded-t-lg bg-gray-50 dark:bg-gray-800 dark:text-white">
-                        Telegram каналы
-                    </div>
-                    <div class="divide-y divide-gray-100 dark:divide-gray-700">
-                        <a href="https://t.me/+T5F8NB0ZgIBBiDWl" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="flex-shrink-0">
-                            <img class="rounded-full w-11 h-11" src="img/lexauto.jpg" alt="">
-                            <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5   rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                            </div>
-                        </div>
-                        <div class="w-full ps-3">
-                            <div class="text-gray-500 text-sm mb-1.5 dark:text-gray-400"><span class="font-semibold text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ🔥</span> <br>Авто по САМЫМ ПЕРВЫМ ЦЕНАМ СПБ!</div>
-                            <div id="memberCount" class="font-semibold  text-sm text-blue-600 dark:text-blue-500"> Загрузка ... </div>
-                        </div>
-                        </a>
-                        <a href="https://t.me/+V7Ch4yxvGZ9hYmVi" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="flex-shrink-0">
-                            <img class="rounded-full w-11 h-11" src="img/lexauto2.jpg" alt="">
-                            <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5   rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                            </div>
-                        </div>
-                        <div class="w-full ps-3">
-                            <div class="text-gray-500 text-sm mb-1.5 dark:text-gray-400"><span class="font-semibold text-gray-900 dark:text-white">НИЖЕ РЫНКА МСК🔥</span> Москва и Регионы
-‼️Публикуем авто СТРОГО по первым ценам рынка!</div>
-                            <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500"> 32 951 Followers </div>
-                        </div>
-                        </a>
-                        <a href="https://t.me/autodo100k" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="flex-shrink-0">
-                            <img class="rounded-full w-11 h-11" src="img/lexauto3.jpg" alt="">
-                            <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5   rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                            </div>
-                        </div>
-                        <div class="w-full ps-3">
-                            <div class="text-gray-500 text-sm mb-1.5 dark:text-gray-400"><span class="font-semibold text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ 100к🔥</span></div>
-                            <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500"> 27 810 Followers </div>
-                        </div>
-                        </a>
-                        <a href="https://t.me/+zUvhEubSlfA4YzQy" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="flex-shrink-0">
-                            <img class="rounded-full w-11 h-11" src="img/lexauto4.jpg" alt="">
-                            <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5   rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                            </div>
-                        </div>
-                        <div class="w-full ps-3">
-                            <div class="text-gray-500 text-sm mb-1.5 dark:text-gray-400"><span class="font-semibold text-gray-900 dark:text-white">АВТОТЕКА ЗЕЛЕНЬ СПБ🌿</span><br>Здесь публикуются ТОЛЬКО автомобили с зелеными автотеками (чистыми базами)! БЕЗ ДТП и тд🙅‍♂️
+                 <div class="flex mt-4 md:hidden justify-around items-center bg-gray-50 mx-auto py-1.5 border dark:bg-gray-800 dark:border-gray-700 rounded-full w-full">
+                                <button id="dropdowntg1Button" data-dropdown-toggle="dropdown-tg1" type="button">
+                                    <img class="rounded-full size-11" src="img/lexauto.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tg1" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                    <a href="https://t.me/+T5F8NB0ZgIBBiDWl" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ🔥</span>Авто по САМЫМ ПЕРВЫМ ЦЕНАМ СПБ!</div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">95 040 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntg2Button" data-dropdown-toggle="dropdown-tg2" type="button">
+                                    <img class="rounded-full size-11" src="img/lexauto2.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tg2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                    <a href="https://t.me/+V7Ch4yxvGZ9hYmVi" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">НИЖЕ РЫНКА МСК🔥</span>Москва и Регионы‼️Публикуем авто СТРОГО по первым ценам рынка! </div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">32 951 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntg3Button" data-dropdown-toggle="dropdown-tg3" type="button">
+                                <img class="rounded-full size-11" src="img/lexauto3.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tg3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700">
+                                    <a href="https://t.me/autodo100k" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ 100к🔥</span>Авто ценой до 100к! Только первые цены!</div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">27 810 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntg4utton" data-dropdown-toggle="dropdown-tg4" type="button">
+                                <img class="rounded-full size-11" src="img/lexauto4.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tg4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700">
+                                    <a href="https://t.me/+zUvhEubSlfA4YzQy" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">АВТОТЕКА ЗЕЛЕНЬ СПБ🌿</span>Здесь публикуются ТОЛЬКО автомобили с зелеными автотеками (чистыми базами)! БЕЗ ДТП и тд🙅‍♂️
 Только авто с города Санкт-Петербург!</div>
-                            <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500"> 4 608 Followers </div>
-                        </div>
-                        </a>
-                        <a href="https://t.me/+T5c9d78_OVFkNWVi" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="flex-shrink-0">
-                            <img class="rounded-full w-11 h-11" src="img/tg4.jpg" alt="">
-                            <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5   rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                            </div>
-                        </div>
-                        <div class="w-full ps-3">
-                            <div class="text-gray-500 text-sm mb-1.5 dark:text-gray-400"><span class="font-semibold text-gray-900 dark:text-white">ТАЧКИ ОТ ЛЕКС АВТО😈</span><br>Здесь я продаю реально выгодные тачки! Свои и не только😉</div>
-                            <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500"> 22 423 Followers </div>
-                        </div>
-                        </a>
-                    </div>
-                    </div>
-                    <a  href="https://www.instagram.com/lex_auto_spb?igsh=MXhoNmkwdnFpcThu"><img class="size-12" src="img/icons8-instagram-100(1).png" alt="instagram"></a>
-                    <a  href="#"><img class="size-12" src="img/icons8-whatsapp-100(1).png" alt="whatsapp"></a>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">4 608 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntg5utton" data-dropdown-toggle="dropdown-tg5" type="button">
+                                <img class="rounded-full size-11" src="img/tg4.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tg5" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700">
+                                    <a href="https://t.me/+T5c9d78_OVFkNWVi" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">ТАЧКИ ОТ ЛЕКС АВТО😈</span>Здесь я продаю реально выгодные тачки! Свои и не только😉</div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">22 423 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.instagram.com/lex_auto_spb?igsh=MXhoNmkwdnFpcThu"><img class=" size-11" src="img/icons8-instagram-48.png" alt=""></a>
+                                <a href="https://chat.whatsapp.com/KFRVvGeeAy6G5tVoINy4tB"><img class=" size-11" src="img/icons8-whatsapp-48.png" alt=""></a>
+                                </div>
+                <div class="flex gap-4">
                 </div>
             </div>
             </nav>
         </header>  
         <p class="text-center text-sm px-2 md:hidden font-semibold uppercase text-gray-900  dark:bg-gray-900 dark:text-white">Lex-Auto - все для покупки/продажи в Санкт-Петербурге</p>
-
+        
         <article class="dark:bg-gray-900 ">
-            
-            <ol class="items-start justify-center p-5 md:mx-10 sm:flex">
-                <li class="relative mb-6 sm:mb-0 hover:bg-gray-100 dark:hover:bg-gray-800">
-                    <a class="flex md:block" href="https://t.me/+T5F8NB0ZgIBBiDWl">
-                        <div class="flex md:items-center">
-                            <div class="z-10 flex items-center justify-center w-11 h-11 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                <img class="w-11 rounded-full h-11" src="img/lexauto.jpg" alt="">
-                            </div>
-                            <div class="z-20 absolute flex items-center justify-center w-5 h-5 ms-6 mt-6 rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                            </div>
-                            <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                        </div>
-                    <div class="md:mt-3 ml-3 md:ml-3 sm:pe-8">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ🔥</h3> 
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Авто по САМЫМ ПЕРВЫМ ЦЕНАМ СПБ!</p>
-                    </div>
-                    </a>
-                </li>
-                <li class="relative mb-6 sm:mb-0 hover:bg-gray-100 dark:hover:bg-gray-800">
-                    <a class="flex md:block" href="https://t.me/+V7Ch4yxvGZ9hYmVi">
-                        <div class="flex md:items-center">
-                        <div class="z-10 flex items-center justify-center w-11 h-11 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                            <img class="w-11 rounded-full h-11" src="img/lexauto2.jpg" alt="">
-                        </div>
-                        <div class="z-20 absolute flex items-center justify-center w-5 h-5 ms-6 mt-6 rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                        </div>
-                        <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                    </div>
-                    <div class="md:mt-3 ml-3 md:ml-3 sm:pe-8">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">НИЖЕ РЫНКА МСК🔥</h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Москва и Регионы‼️ Публикуем авто СТРОГО по первым ценам рынка! </p>
-                    </div>
-                    </a>
-                </li>
-                <li class="relative mb-6 sm:mb-0 hover:bg-gray-100 dark:hover:bg-gray-800">
-                    <a class="flex md:block" href="https://t.me/autodo100k">
-                        <div class="flex md:items-center">
-                        <div class="z-10 flex items-center justify-center w-11 h-11 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                            <img class="w-11 rounded-full h-11" src="img/lexauto3.jpg" alt="">
-                        </div>
-                        <div class="z-20 absolute flex items-center justify-center w-5 h-5 ms-6 mt-6 rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                        </div>
-                        <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                    </div>
-                    <div class="md:mt-3 ml-3 md:ml-3 sm:pe-8">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ 100к🔥</h3>
-                        <!-- <p class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Авто ценой до 100к! Только первые цены!</p> -->
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Авто ценой до 100к! Только первые цены!</p>
-                    </div>
-                    </a>
-                </li>
-                <li class="relative mb-6 sm:mb-0 hover:bg-gray-100 dark:hover:bg-gray-800">
-                    <a class="flex md:block" href="https://t.me/+zUvhEubSlfA4YzQy">
-                        <div class="flex md:items-center">
-                        <div class="z-10 flex items-center justify-center w-11 h-11 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                            <img class="w-11 rounded-full h-11" src="img/lexauto4.jpg" alt="">
-                        </div>
-                        <div class="z-20 absolute flex items-center justify-center w-5 h-5 ms-6 mt-6 rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                        </div>
-                        <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                    </div>
-                    <div class="md:mt-3 ml-3 md:ml-3 sm:pe-8">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">АВТОТЕКА ЗЕЛЕНЬ СПБ🌿</h3>
-                        <p class="text-base font-normal max-w-[35rem] text-gray-500 dark:text-gray-400">Здесь публикуются ТОЛЬКО автомобили с зелеными автотеками (чистыми базами)! БЕЗ ДТП и тд🙅‍♂️
-Только авто с города Санкт-Петербург!</p>
-                    </div>
-                    </a>
-                </li>
-                <li class="relative mb-6 sm:mb-0 hover:bg-gray-100 dark:hover:bg-gray-800">
-                    <a class="flex md:block" href="https://t.me/+T5c9d78_OVFkNWVi">
-                        <div class="flex md:items-center">
-                        <div class="z-10 flex items-center justify-center w-11 h-11 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                            <img class="w-11 rounded-full h-11" src="img/tg4.jpg" alt="">
-                        </div>
-                        <div class="z-20 absolute flex items-center justify-center w-5 h-5 ms-6 mt-6 rounded-full ">
-                                <img class="" src="img/icons8-telegram-48.png" alt="telegram">
-                        </div>
-                        <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-                    </div>
-                    <div class="md:mt-3 ml-3 md:ml-3 sm:pe-8">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">ТАЧКИ ОТ ЛЕКС АВТО😈</h3>
-                        <!-- <p class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Здесь я продаю реально выгодные тачки! Свои и не только😉</p> -->
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Здесь я продаю реально выгодные тачки! Свои и не только😉</p>
-                    </div>
-                    </a>
-                </li>
-            </ol>
-
-
+           
                 <div class="z-0 inline-block h-full w-full  lg:px-16 md:p-12 sm:p-8 pt-12 md:pt-0 sm:pt-16">
                     <div class="flex w-full lg:items-start lg:justify-between justify-center items-center lg:flex-row flex-col">
                         <div class="lg:w-1/2  md:inline-block w-full">
                             <img class="h-auto w-full" src="img/car-nobg.png" alt="LA">
                         </div>
                         <div class="flex lg:w-1/2 flex-col items-center self-center w-full lg:text-center">
-                            <div class="py-2 w-full mx-auto flex flex-col items-center justify-center  text-center   overflow-hidden sm:py-0">
+                            
+                            <div class="p-4 w-full mx-auto flex flex-col items-center justify-center  text-center   overflow-hidden sm:py-0">
+                                <div class="hidden md:flex justify-around items-center mx-auto py-1.5 border bg-gray-50 dark:bg-gray-800 dark:border-gray-700 rounded-full w-full">
+                                 <button id="dropdowntgf1Button" data-dropdown-toggle="dropdown-tgf1" type="button">
+                                    <img class="rounded-full size-24" src="img/lexauto.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tgf1" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                    <a href="https://t.me/+T5F8NB0ZgIBBiDWl" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ🔥</span>Авто по САМЫМ ПЕРВЫМ ЦЕНАМ СПБ!</div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">95 040 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntgf2Button" data-dropdown-toggle="dropdown-tgf2" type="button">
+                                    <img class="rounded-full size-24" src="img/lexauto2.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tgf2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                    <a href="https://t.me/+V7Ch4yxvGZ9hYmVi" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">НИЖЕ РЫНКА МСК🔥</span>Москва и Регионы‼️Публикуем авто СТРОГО по первым ценам рынка! </div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">32 951 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntgf3Button" data-dropdown-toggle="dropdown-tgf3" type="button">
+                                <img class="rounded-full size-24" src="img/lexauto3.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tgf3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700">
+                                    <a href="https://t.me/autodo100k" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">НИЖЕ РЫНКА СПБ 100к🔥</span>Авто ценой до 100к! Только первые цены!</div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">27 810 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntgf4utton" data-dropdown-toggle="dropdown-tgf4" type="button">
+                                <img class="rounded-full size-24" src="img/lexauto4.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tgf4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700">
+                                    <a href="https://t.me/+zUvhEubSlfA4YzQy" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">АВТОТЕКА ЗЕЛЕНЬ СПБ🌿</span>Здесь публикуются ТОЛЬКО автомобили с зелеными автотеками (чистыми базами)! БЕЗ ДТП и тд🙅‍♂️
+Только авто с города Санкт-Петербург!</div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">4 608 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <button id="dropdowntgf5utton" data-dropdown-toggle="dropdown-tgf5" type="button">
+                                <img class="rounded-full size-24" src="img/tg4.jpg" alt="">
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdown-tgf5" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700">
+                                    <a href="https://t.me/+T5c9d78_OVFkNWVi" class="flex px- py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
+                                    <div class="w-full ps-3">
+                                        <div class="text-gray-500 text-xs mb-1.5 dark:text-gray-400"><span class="font-semibold text-sm text-gray-900 dark:text-white">ТАЧКИ ОТ ЛЕКС АВТО😈</span>Здесь я продаю реально выгодные тачки! Свои и не только😉</div>
+                                        <div class="font-semibold  text-sm text-blue-600 dark:text-blue-500">22 423 subscribers</div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <a href="https://www.instagram.com/lex_auto_spb?igsh=MXhoNmkwdnFpcThu"><img class=" size-24" src="img/icons8-instagram-48.png" alt=""></a>
+                                <a href="https://chat.whatsapp.com/KFRVvGeeAy6G5tVoINy4tB"><img class=" size-24" src="img/icons8-whatsapp-48.png" alt=""></a>
+                                </div>
                                 <h1 class="inline-block  w-full py-5 lg:text-left lg:text-8xl md:text-3xl text-3xl  font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">Lex-Аuto самый<span class="text-amber-400 "> крупный и активный</span> канал в СПБ</h1>
                                 <p class="text-sm font-normal md:text-left text-center text-gray-500 md:text-xl dark:text-gray-400">Lex-Auto - это в первую очередь торговая площадка, ориентированная на перекупщиков. Каждый месяц на этой площадке осуществляется продажа около 250 автомобилей!</p>
                             </div>
